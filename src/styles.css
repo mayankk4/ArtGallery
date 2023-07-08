@@ -1,1 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
+
+/* Mock styles - can be removed at any point */
+#header {
+    text-align: center;
+}
+
+.main_logo {
+    display: inline-block;
+    width: 100px;
+}
