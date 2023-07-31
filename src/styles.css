@@ -1,4 +1,5 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
 
 /* Mock styles - can be removed at any point */
 #header {
@@ -8,4 +9,30 @@
 .main_logo {
     display: inline-block;
     width: 100px;
+}
+
+
+body {
+    font-family: 'Georgia', Arial, Helvetica, serif;
+    font-size: x-large;
+    color: #333;
+}
+
+h1 {
+    font-weight: lighter;
+}
+
+address {
+    color: #888;
+}
+
+a,
+a:hover,
+a:link,
+a:visited {
+    color: #06c;
+}
+
+a:hover {
+    color: #07f;
 }

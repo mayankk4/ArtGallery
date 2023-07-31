@@ -1,3 +1,5 @@
+import { ILocation } from "./location";
+
 export enum PhotoType {
     // A regular photo.
     DEFAULT = 0,
@@ -31,7 +33,7 @@ export interface IPhoto {
     // some special kinds of components.
     type: PhotoType
     // Where the photo was taken.
-    location: Location;
+    location: ILocation;
     // Tags associated with the photo.
     tags: Array<PhotoTag>;
 
